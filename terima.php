@@ -22,7 +22,7 @@ koneksi();
 insertInbox($nopengirim, $pesan);
 
 if($pesan == "TES SMS") {
-	$pesanKirim = "Tes+Berhasil+wooooiii";
+	$pesanKirim = "Tes+Berhasil";
 	trigger($nopengirim, $pesanKirim);
 } else {
 	$pesanKirim = "Ngapain+Loe+Bro";
